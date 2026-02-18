@@ -1,0 +1,71 @@
+:root {
+  font-family: 'Lato', sans-serif;
+  /* line-height: 1.5; */
+  font-weight: 400;
+  /* min-width: 320px; */
+  /* max-width: 100%; */
+  color: #fff;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  /* font-family: 'Lato', sans-serif; */
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.25;
+}
+
+button {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  background-color: transparent;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* @media screen and (min-resolution) {
+  .main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6) 100%),
+      url(/main-background-2x.webp);
+  }
+} */
